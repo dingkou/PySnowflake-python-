@@ -8,6 +8,7 @@ pip = 19
 
 由于考虑到以后要动态切分数据，防止将不同表切分数据到同一个表中时出现主键相等的冲突情况，这里我们使用一个全局ID生存器。重要的是他是自增的。
 这边我使用`Snowflake`的python实现版（pysnowflake）。当然你也可以使用java实现版.
+百度如何使用uid：https://github.com/baidu/uid-generator/blob/master/README.zh_cn.md
 
 ### Snowflake的使用
 
